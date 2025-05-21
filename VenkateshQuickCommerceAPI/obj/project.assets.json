@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "QuickCom.BusinessLIb/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/QuickCom.BusinessLIb.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QuickCom.BusinessLIb.dll": {}
+        }
       }
     }
   },
@@ -439,10 +449,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "QuickCom.BusinessLIb/1.0.0": {
+      "type": "project",
+      "path": "../QuickCom.BusinessLIb/QuickCom.BusinessLIb.csproj",
+      "msbuildProject": "../QuickCom.BusinessLIb/QuickCom.BusinessLIb.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "QuickCom.BusinessLIb >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -477,7 +493,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Venka\\source\\repos\\AvinyaQuickComAPI\\QuickCom.BusinessLIb\\QuickCom.BusinessLIb.csproj": {
+              "projectPath": "C:\\Users\\Venka\\source\\repos\\AvinyaQuickComAPI\\QuickCom.BusinessLIb\\QuickCom.BusinessLIb.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

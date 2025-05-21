@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VenkateshQuickCommerceAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70f0069a11d270a2f664aacf6a692c5a5f5fde07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0bb65433991db6c821e2817a4b883c53d2c09f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("VenkateshQuickCommerceAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VenkateshQuickCommerceAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
