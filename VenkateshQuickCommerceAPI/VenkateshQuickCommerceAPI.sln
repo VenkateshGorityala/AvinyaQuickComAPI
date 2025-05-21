@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VenkateshQuickCommerceAPI",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCom.BusinessLIb", "..\QuickCom.BusinessLIb\QuickCom.BusinessLIb.csproj", "{27B492C2-8C56-4B7C-92AD-63B2F797931A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity.DbLayer", "..\Entity.DbLayer\Entity.DbLayer.csproj", "{28B28F58-EAFB-4872-85CB-AEA8ADAC852C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{27B492C2-8C56-4B7C-92AD-63B2F797931A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27B492C2-8C56-4B7C-92AD-63B2F797931A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27B492C2-8C56-4B7C-92AD-63B2F797931A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B28F58-EAFB-4872-85CB-AEA8ADAC852C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B28F58-EAFB-4872-85CB-AEA8ADAC852C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B28F58-EAFB-4872-85CB-AEA8ADAC852C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B28F58-EAFB-4872-85CB-AEA8ADAC852C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
